@@ -1,0 +1,17 @@
+{
+  "name": "spinal-lib-viewer-validation-plugin",
+  "version": "1.0.1",
+  "description": "spinal-lib-viewer-validation-plugin",
+  "main": "index.js",
+  "dependencies": {
+    "spinal-env-viewer-validation-plugin": "https://github.com/spinalcom/spinal-env-viewer-validation-plugin.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm run create_viewer-annotations_env",
+    "create_viewer-annotations_env": "create_viewer-annotations_env -m"
+  },
+  "author": "Laurent HA TAM DAN",
+  "license": "SEE LICENSE IN license.pdf"
+}
